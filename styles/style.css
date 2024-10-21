@@ -1,0 +1,90 @@
+@import url("board.css");
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ef6c00;
+}
+
+.title {
+  font-family: 'Ranchers', cursive;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.game-title {
+  font-family: 'Ranchers', cursive;
+  margin: 10px 0px 0px 0px;
+  color: #fff;
+}
+
+.sub-title {
+  font-family: 'Ranchers', cursive;
+  color: #fff;
+}
+
+.modal  {
+  background-color: #ef6c00;
+  color: #fff;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.game-option-text {
+  color: white;
+  text-transform: uppercase;
+}
+
+.modal-footer {
+  background-color: #ef6c00 !important;
+}
+
+/* Character Model */
+.character-container {
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.character {
+  background-color: #263238;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.character:hover {
+  cursor: pointer;
+}
+
+.selected {
+  color: red;
+  outline: solid red 3px;
+}
+
+#winner-icon {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+#winner-display {
+  font-size: 30px;
+}
